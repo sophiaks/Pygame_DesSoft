@@ -21,7 +21,7 @@ BLUE = (0, 0, 255)
 YELLOW = (255, 255, 0)
 
 
-class Player(pygame.sprite.Sprite):
+class Player(pygame.sprite.Sprite): 
     def __init__(self):
         pygame.sprite.Sprite.__init__(self)
         player_img = pygame.image.load(
